@@ -4,3 +4,6 @@
 
 his is a mini-program for a calculation website on the dosage of Novec 1230 (standard reference: T/CECS 10171-2022). If you are interested in this program, you are welcome to download and use it, as well as provide valuable feedback.
 If you could cite the source when referencing it, that would be greatly appreciated.
+
+程序实际演示网址（Program demonstration website）：
+https://qfjtmiehuojiwang.streamlit.app/
