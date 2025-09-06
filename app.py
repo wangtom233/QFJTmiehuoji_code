@@ -156,7 +156,7 @@ if st.button('点击计算获取所需灭火剂容量 →'):
 
         # 结果展示
         st.markdown('<div class="result-card">', unsafe_allow_html=True)
-        st.markdown(f"<h3>计算结果:</h3>")
+        st.markdown(f"计算结果:")
         st.markdown(f"所需灭火剂质量: {agent_mass:.3f} kg")
         st.markdown(f"所需灭火器体积: {required_volume:.3f} 升(L)")
         st.markdown(f"符合标准: GB50193, NFPA2001")
@@ -175,4 +175,5 @@ if st.button('点击计算获取所需灭火剂容量 →'):
 
     except ValueError as e:
         st.error(e)
+
 
