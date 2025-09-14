@@ -1,6 +1,6 @@
 <div align="center"><a name="readme-top"></a>
 
-# [新能源电池消防系统灭火器容量计算器][[github-project-link](https://github.com/wangtom233/miehuoji_code)]
+# [GitHub 灭火器容量计算器][[github-project-link](https://github.com/wangtom233/miehuoji_code)]
 
 > 让 消防用量计算更便捷 | 源自 [wangtom233/miehuoji_code](https://github.com/wangtom233/miehuoji_code)
 
