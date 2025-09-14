@@ -30,5 +30,6 @@
 
 
 ## 本地运行
-streamlit run app2.py
+streamlit run app.py
+
 
