@@ -1,5 +1,5 @@
 # miehuoji_code
-这是一个关于全氟己酮和七氟丙烷用量的计算网站（标准参考：T/CECS 10171-2022,GBGB 50370-2005）小程序，如果对于这个程序感兴趣的话，欢迎下载使用和提出宝贵的意见
+这是一个关于全氟己酮和七氟丙烷用量的计算网站（标准参考：T/CECS 10171-2022,GB 50370-2005）小程序，如果对于这个程序感兴趣的话，欢迎下载使用和提出宝贵的意见
 如果您在引用过程能够注明出处，那我会千方百计地给你打666
 
 this is a mini-program for a calculation website on the dosage of Novec 1230 (standard reference: T/CECS 10171-2022,GB 50370-2005). If you are interested in this program, you are welcome to download and use it, as well as provide valuable feedback.
