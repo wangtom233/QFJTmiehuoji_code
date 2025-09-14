@@ -210,7 +210,7 @@ with col1:
             value=1120,
             step=1,
             format="%d",
-            help="请输入七氟丙烷的密度，单位为kg/m³。常温常压下约为1120 kg/m³。",
+            help="请输入七氟丙烷的密度，单位为kg/m³。默认值为在4.2MPa贮存压力下1120 kg/m³。",
             key="density"
         )
         altitude_coefficient = st.number_input(
@@ -324,4 +324,5 @@ if st.button("点击计算获取所需灭火剂容量 →"):
 
     except ValueError as e:
         st.error(e)
+
 
