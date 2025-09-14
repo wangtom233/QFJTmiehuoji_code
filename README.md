@@ -1,3 +1,5 @@
+
+
 # [电池舱灭火器容量计算器](https://github.com/wangtom233/miehuoji_code)
 
 ## 介绍
@@ -17,6 +19,29 @@
 - 计算所需灭火器的体积（升）
 - 支持不同的环境条件（如温度、密度、充装率、海拔修正系数等）
 
+## 公式说明
+### 全氟己酮
+- **质量公式**:
+  $$
+  m = K \times c \times \frac{v}{S_1 \times (100 - c)}
+  $$
+- **容积公式**:
+  $$
+  V = \frac{m}{p \times d}
+  $$
+- **比容公式**:
+  $$
+  S_1 = 0.0664 + 0.000274 \times T
+  $$
+**参数说明**:
+- \( m \): 全氟己酮质量 (kg)
+- \( c \): 设计浓度 (%)
+- \( v \): 防护区体积 (m³)
+- \( S_1 \): 比容 (m³/kg)
+- \( T \): 环境最低温度 (°C), 默认20°C
+- \( p \): 全氟己酮密度 (4.2 MPa)，1420 kg/m³
+- \( d \): 充装率，默认 0.85
+- \( K \): 海拔修正系数，默认 1.0
 
 
 ## 安装
@@ -27,9 +52,3 @@
    git clone https://github.com/wangtom233/miehuoji_code.git
    cd miehuoji_code
    git checkout wangtom233-2
-
-
-## 本地运行
-streamlit run app.py
-
-
