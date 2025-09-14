@@ -172,9 +172,9 @@ with st.sidebar:
                 <li>( K ): 海拔修正系数，默认1.0，最小0.565</li>
             </ul>
         </div>""", unsafe_allow_html=True)
-        st.image("D:\learn\PythonProject4\K_list.png")
+        st.image("K_list.png")
         st.header("📝 七氟丙烷主要贮存标准（GB 50370-2005）")
-        st.image("D:\learn\PythonProject4\qifubw.png")
+        st.image("qifubw.png")
 
 
 # 选择灭火剂类型
@@ -324,3 +324,4 @@ if st.button("点击计算获取所需灭火剂容量 →"):
 
     except ValueError as e:
         st.error(e)
+
